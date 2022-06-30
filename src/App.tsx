@@ -1,5 +1,13 @@
+import HomePage from "@pages/homePage";
+import { GlobalStyle } from "@shared/globalStyles";
+
 function App() {
-  return <h1>Olá, jessica!</h1>;
+  return (
+    <>
+      <HomePage />
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
